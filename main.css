@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    padding: 100px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+#task-name {
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 16px;
+}
+
+li {
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
